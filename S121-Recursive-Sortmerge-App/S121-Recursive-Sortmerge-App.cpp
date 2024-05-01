@@ -55,7 +55,7 @@ void showVector(vector<int> v, string caption)
 //------------------------------------------------------------
 void mymerge(vector<int>& v, vector<int>& aux, int lo, int hi)
 {
-    //vector<int> aux(v);
+    
     copy(v.begin(), v.end(), aux.begin());
 
     int mid = (lo + hi) / 2;
